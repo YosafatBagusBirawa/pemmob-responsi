@@ -15,7 +15,7 @@ Aplikasi Android sederhana yang menampilkan informasi tentang klub sepak bola Bo
 
 ## Video Demo Aplikasi
 
-![Video Demo Aplikasi](ss/nama_video_demo.gif)
+![Video Demo Aplikasi](ss/Screen_recording_20251026_170423.gif)
 
 <br>
 ---
