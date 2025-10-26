@@ -11,7 +11,7 @@ class TeamRepository {
 
     private val BOLOGNA_ID = 103
 
-    suspend fun getIpswichTownData(): TeamResponse? {
+    suspend fun getBolognaData(): TeamResponse? {
         try {
             val response = apiService.getTeamData(BOLOGNA_ID, apiToken)
 

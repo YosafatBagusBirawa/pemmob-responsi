@@ -25,7 +25,7 @@ class TeamViewModel(private val repository: TeamRepository) : ViewModel() {
     private fun fetchTeamData() {
         _isLoading.value = true
         viewModelScope.launch {
-            val data = repository.getIpswichTownData()
+            val data = repository.getBolognaData()
             _teamData.postValue(data)
             _isLoading.postValue(false)
         }
