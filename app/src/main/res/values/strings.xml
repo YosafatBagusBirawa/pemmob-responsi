@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Responsi 1 Mobile H1D023109</string>
+    <string name="stadium_background">Stadium Background</string>
+    <string name="club_name">Bologna FC 1909</string>
+    <string name="club_description">Klub Sepak Bola Bologna 1909, atau dikenal sebagai Bologna FC, adalah klub sepak bola profesional Italia yang berlokasi di Bologna, Emilia-Romagna.</string>
+    <string name="history_club">History Club</string>
+    <string name="head_coach">Head Coach</string>
+    <string name="team_squad">Team Squad</string>
+    <string name="bologna_logo_description">Bologna Logo</string>
+    <string name="history_icon_description">History Icon</string>
+    <string name="coach_icon_description">Coach Icon</string>
+    <string name="squad_icon_description">Squad Icon</string>
+    <string name="title_activity_player_detail">Player Detail</string>
 </resources>

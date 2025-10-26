@@ -1,42 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
+
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="Responsi_1_Mobile_H1D023109"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Responsi1MobileH1D023109">
+        android:theme="@style/Theme.Responsi1MobileH1D023109"
+        tools:targetApi="31">
+
         <activity
-            android:name="com.example.responsi1mobileh1d023109.MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.Responsi1MobileH1D023109">
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".ui.PlayerDetailActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/title_activity_player_detail"
+            android:parentActivityName=".MainActivity" />
 
         <activity
             android:name=".ui.ClubHistoryActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/history_club"
+            android:parentActivityName=".MainActivity" />
 
         <activity
             android:name=".ui.CoachActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/head_coach"
+            android:parentActivityName=".MainActivity" />
 
         <activity
             android:name=".ui.SquadActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/team_squad"
+            android:parentActivityName=".MainActivity" />
+
     </application>
 
 </manifest>

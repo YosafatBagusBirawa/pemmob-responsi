@@ -21,12 +21,12 @@
                 android:layout_height="match_parent"
                 android:src="@drawable/ic_bologna_stadium"
                 android:scaleType="centerCrop"
-                android:contentDescription="Stadium Background"/>
+                android:contentDescription="@string/stadium_background"/>
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="rgba(0, 0, 0, 0)" />
+                android:background="#00000000" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -39,7 +39,8 @@
                     android:id="@+id/ic_bologna_logo"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/ic_bologna_logo" />
+                    android:src="@drawable/ic_bologna_logo"
+                    android:contentDescription="@string/bologna_logo_description" />
 
                 <TextView
                     android:id="@+id/tv_club_name_header"
@@ -49,7 +50,7 @@
                     android:background="#BF000000"
                     android:paddingHorizontal="12dp"
                     android:paddingVertical="4dp"
-                    android:text="Bologna FC 1909"
+                    android:text="@string/club_name"
                     android:textColor="@android:color/white"
                     android:textSize="22sp"
                     android:textStyle="bold" />
@@ -67,7 +68,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="5dp"
-                android:text="Klub Sepak Bola Bologna 1909, atau dikenal sebagai Bologna FC, adalah klub sepak bola profesional Italia yang berlokasi di Bologna, Emilia-Romagna."
+                android:text="@string/club_description"
                 android:textColor="@color/black" />
         </com.google.android.material.card.MaterialCardView>
 
@@ -90,13 +91,14 @@
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
+                    android:contentDescription="@string/history_icon_description"
                     android:src="@drawable/ic_history" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
-                    android:text="history club"
+                    android:text="@string/history_club"
                     android:textSize="16sp" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -119,13 +121,14 @@
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
+                    android:contentDescription="@string/coach_icon_description"
                     android:src="@drawable/ic_coach" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
-                    android:text="Head Coach"
+                    android:text="@string/head_coach"
                     android:textSize="16sp" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -148,13 +151,14 @@
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
+                    android:contentDescription="@string/squad_icon_description"
                     android:src="@drawable/ic_squad" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="16dp"
-                    android:text="Team Squad"
+                    android:text="@string/team_squad"
                     android:textSize="16sp" />
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
