@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ClubHistoryActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_club_stadium"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_bologna_fc_1909_stadium"
+            android:contentDescription="Bologna FC 1909 Stadium" />
+
+        <TextView
+            android:id="@+id/tv_history_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Bologna FC 1909 History"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_club_history_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:lineSpacingExtra="4dp"
+            android:text="Klub Sepak Bola Bologna 1909, atau dikenal sebagai Bologna FC, adalah klub sepak bola profesional Italia yang berlokasi di Bologna, Emilia-Romagna. Klub ini didirikan pada tahun 1909 dan dijuluki I Rossoblu (Si Merah dan Biru) dan I Veltri (The Greyhounds), sesuai dengan warna seragam kandang bergaris merah-biru. Bologna memiliki sejarah panjang dan telah mencapai kesuksesan, termasuk tujuh gelar Serie A dan tiga trofi Coppa Italia. Setelah mengalami kesulitan keuangan selama beberapa dekade, klub ini kembali menunjukkan performa terbaiknya dengan lolos ke Liga Champions UEFA musim 2024–2025. Mereka memainkan pertandingan kandang di Stadio Renato Dall'Ara, yang merupakan salah satu stadion terbesar di Serie A." />
+
+    </LinearLayout>
+</ScrollView>
