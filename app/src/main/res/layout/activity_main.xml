@@ -36,7 +36,7 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@drawable/ic_bologna_logo"
+                    android:id="@+id/ic_bologna_logo"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:src="@drawable/ic_bologna_logo" />
